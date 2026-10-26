@@ -55,6 +55,9 @@
     "typescript": "~3.9.7",
     "zone.js": "^0.10.3"
   },
+  "overrides": {
+    "ws@>=7.0.0 <7.5.11": "7.5.11"
+  },
   "devDependencies": {
     "@angular/language-service": "^10.2.3",
     "@types/express-serve-static-core": "^4.17.9",
